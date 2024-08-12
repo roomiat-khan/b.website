@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav ul {
+    float: right;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e63946;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pizza-item {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.pizza-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pizza-info {
+    text-align: left;
+    padding: 10px;
+}
+
+.about {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact {
+    padding: 20px 0;
+}
+
+.contact form {
+    width: 80%;
+    margin: auto;
+}
+
+.contact form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-details {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
